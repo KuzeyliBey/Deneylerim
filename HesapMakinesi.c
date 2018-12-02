@@ -19,7 +19,7 @@ int main(){
 			printf("Ikinci sayi:");
 			scanf("%f", &b);
 			printf("Sonuc = %.2f", a + b);
-	    }
+	    	}
 	    
 	    else if (islem == 2){
 			
@@ -28,7 +28,7 @@ int main(){
 			printf("Ikinci sayi:");
 			scanf("%f", &b);
 			printf("Sonuc = %.2f", a - b);
-	    }
+	    	}
 	    
 	    else if (islem == 3){
 			
@@ -37,7 +37,7 @@ int main(){
 			printf("Ikinci sayi:");
 			scanf("%f", &b);
 			printf("Sonuc = %.2f", a * b);
-	    }
+	    	}
 	    
 	    else if (islem == 4){
 			
@@ -46,7 +46,7 @@ int main(){
 			printf("Ikinci sayi:");
 			scanf("%f", &b);
 			printf("Sonuc = %.2f", a / b);
-	    }
+	    	}
 	    
 		else if (islem == 5){
 			while (1){
@@ -61,16 +61,13 @@ int main(){
 					d = b;
 					printf("Sonuc = %d", c % d);
 					break;
-				}
+					}
 				else {
 					printf("Lutfen tam sayi girin!\n");
-					}
-				
-					
+					}	
 				}
-
 			
-	    }
+	    	}
 	    
 	    else if (islem == 0) i = 0;
 	}
