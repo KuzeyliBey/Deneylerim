@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-//Ders Notu Hesaplama Programi
+//5 Islemli Hesap Makinesi
 
 int main(){
 	
